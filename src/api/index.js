@@ -2,7 +2,7 @@ import axios from "axios";
 import { clearCookie } from "./auth";
 
 const axiosSecure = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000',
+  baseURL: import.meta.env.VITE_API_URL || 'https://real-estate-server-qxou.onrender.com',
   withCredentials: true,
 });
 
